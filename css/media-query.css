@@ -1,0 +1,103 @@
+@media screen and (max-width:1280px) {
+  .hero header {
+
+    & nav,
+    & button {
+      display: none;
+    }
+
+    & .nav-menu {
+      display: flex;
+    }
+  }
+
+  
+}
+
+/* ?=============================================== */
+@media screen and (max-width:1023px) {
+  .hero {
+
+
+    & .hero-container {
+      flex-flow: column;
+    }
+
+    & .hero-img {
+
+
+      & .img-wrapper {
+        max-height: 384px;
+        rotate: 0deg;
+      }
+
+
+      & img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+
+}
+
+/* ?=============================================== */
+@media screen and (max-width:766px) {
+  .hero header {
+
+    .logo a {
+      font-size: 26px;
+      line-height: 32px;
+    }
+  }
+
+  .hero h1 {
+    font-size: 63px;
+    line-height: 79px;
+  }
+
+
+}
+
+/* ?=============================================== */
+@media screen and (max-width:480px) {
+  .hero header {
+
+    .logo a {
+      font-size: 23px;
+      line-height: 27px;
+    }
+  }
+
+  .hero {
+
+    .trending {
+      font-size: 11px;
+      line-height: 15px;
+      padding: 6px 12px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: 54px;
+      line-height: 68px;
+      margin-bottom: 24px;
+    }
+    
+    p {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 24px;
+    }
+
+    .start,
+    .watch {
+      font-size: 15px;
+      line-height: 21px;
+      padding: 12px 24px;
+    }
+  }
+
+}
