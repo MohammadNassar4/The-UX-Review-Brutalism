@@ -70,6 +70,10 @@
     flex-basis: auto;
   }
 
+  .community .sec-content {
+    flex-direction: column;
+  }
+
 }
 
 /* ?=============================================== */
@@ -202,6 +206,79 @@
     line-height: 23px;
     margin-bottom: 21px;
   }
+
+  .community .join h3 {
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 28px;
+  }
+
+  .community .join>p {
+    font-size: 18px;
+    line-height: 28px;
+    padding: 14px;
+    margin-bottom: 28px;
+  }
+
+  .community .perk {
+    gap: 14px;
+  }
+
+  .community .perk .icon {
+    width: 42px;
+    height: 42px;
+  }
+
+  .community .perk p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .community .join .join-now {
+    font-size: 21px;
+    line-height: 28px;
+    padding: 21px 42px;
+  }
+
+  .community .reviews {
+    padding: 35px;
+  }
+
+  .community .reviews h3 {
+    font-size: 26px;
+    line-height: 32px;
+    margin-bottom: 28px;
+  }
+
+  .community .reviews .review {
+    padding: 14px 14px 14px 21px;
+    margin-bottom: 28px;
+  }
+
+  .community .reviews .review p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 14px;
+  }
+
+  .community .reviews .review .author-info {
+    gap: 14px;
+  }
+
+  .community .reviews .review .img-wrapper {
+    width: 42px;
+  }
+
+  .community .reviews .review .author-name {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .community .reviews .review .author-job {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
 }
 
 /* ?=============================================== */
@@ -352,9 +429,9 @@
     margin-bottom: 9px;
   }
 
-    .authors {
-      padding-block: 60px;
-    }
+  .authors {
+    padding-block: 60px;
+  }
 
   .authors .author-card {
     padding: 24px;
@@ -389,9 +466,83 @@
     margin-bottom: 18px;
   }
 
-    .authors .author-card .icon {
+  .authors .author-card .icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .community {
+    padding-block: 60px;
+  }
+
+  .community .join h3 {
+    font-size: 27px;
+    line-height: 30px;
+    margin-bottom: 24px;
+  }
+
+  .community .join>p {
+    font-size: 15px;
+    line-height: 24px;
+    padding: 12px;
+    margin-bottom: 24px;
+  }
+
+  .community .perk {
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 18px;
+  }
+
+  .community .perk .icon {
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+  }
+
+  .community .perk p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .community .join .join-now {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 18px 36px;
+  }
+
+  .community .reviews {
+    padding: 30px;
+  }
+
+  .community .reviews h3 {
+    font-size: 23px;
+    line-height: 27px;
+    margin-bottom: 24px;
+  }
+
+  .community .reviews .review {
+    padding: 12px 12px 12px 18px;
+    margin-bottom: 24px;
+  }
+
+  .community .reviews .review p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 12px;
+  }
+
+  .community .reviews .review .author-info {
+    gap: 12px;
+  }
+
+    .community .reviews .review .img-wrapper {
       width: 36px;
-      height: 36px;
     }
+
+        .community .reviews .review .author-name {
+          font-size: 11px;
+          line-height: 15px;
+        }
 
 }

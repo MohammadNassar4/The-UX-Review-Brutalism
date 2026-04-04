@@ -66,6 +66,7 @@ button {
 
 .sec-head {
   margin-bottom: 89px;
+  text-align: center;
 }
 
 .sec-title {
@@ -736,11 +737,11 @@ button {
 
 .authors .author-card:nth-child(2) {
   background: #dcfce8;
-
+  
   & .label {
     background-color: #4a74ff;
   }
-
+  
   &:hover .author-name {
     color: #3e4df7;
   }
@@ -751,7 +752,7 @@ button {
   & .label {
     background-color: #b433ff;
   }
-
+  
   &:hover .author-name {
     color: #a100f7;
   }
@@ -818,4 +819,150 @@ button {
   &:last-child:hover {
     background: #e30976;
   }
+}
+/* ?================================ community section ============================*/
+.community {
+  padding-block: 80px;
+  background: #f5f5f5;
+}
+
+.community .sec-content {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.community .join,
+.community .reviews {
+  flex-basis: 50%;
+  height: fit-content;
+}
+
+.community .join h3 {
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 40px;
+  margin-bottom: 32px;
+}
+
+.community .join > p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 033x;
+  margin-bottom: 32px;
+  padding: 16px;
+  background: #fff;
+}
+
+.community .perks  {
+  margin-bottom: 24px;
+}
+
+.community .perk {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.community .perk:nth-child(2) .icon {
+  background: #4a74ff;
+}
+
+.community .perk:nth-child(3) .icon {
+  background: #b433ff;
+}
+
+.community .perk:nth-child(4) .icon {
+  background: #00c957;
+}
+
+.community .perk .icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f73e3e;
+  color: #fff;
+}
+
+.community .perk p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.community .join .join-now {
+  padding: 24px 48px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  background: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: .2s;
+
+  &:hover {
+    transform: translate(6px, 6px);
+    box-shadow: 0 0 #000;
+  }
+}
+
+.community .reviews {
+  padding: 40px;
+  background-color: #fff;
+}
+
+.community .reviews h3 {
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 36px;
+  margin-bottom: 32px;
+}
+
+.community .reviews .review {
+  padding: 16px 16px 16px 24px;
+  margin-bottom: 32px;
+  background: #fff2f2;
+}
+
+.community .reviews .review:nth-child(3) {
+  background: #f0f5ff;
+}
+
+.community .reviews .review:nth-child(4) {
+  background: #faf5ff;
+  margin-bottom: 0;
+}
+
+.community .reviews .review p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 29px;
+  margin-bottom: 16px;
+}
+
+.community .reviews .review .author-info {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.community .reviews .review .img-wrapper {
+  width: 48px;
+}
+
+.community .reviews .review .author-name {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.community .reviews .review .author-job {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #525252;
 }
