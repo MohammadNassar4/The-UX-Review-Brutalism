@@ -15,6 +15,15 @@
     width: 50%;
   }
 
+  .authors .authors-wrapper {
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  .authors .author-card {
+    flex-grow: 0;
+    flex-basis: calc(50% - 32px);
+  }
 
 }
 
@@ -56,6 +65,11 @@
     }
   }
 
+  .authors .author-card {
+    flex-grow: 1;
+    flex-basis: auto;
+  }
+
 }
 
 /* ?=============================================== */
@@ -76,6 +90,11 @@
   .sec-title {
     font-size: 42px;
     line-height: 42px;
+  }
+
+  .sec-desc {
+    font-size: 18px;
+    line-height: 25px;
   }
 
   .articles .articles-layout .main article,
@@ -151,6 +170,38 @@
     margin-bottom: 10.5px;
   }
 
+  .authors .author-card {
+    padding: 28px;
+  }
+
+  .authors .author-card .label {
+    font-size: 11px;
+    line-height: 14px;
+    padding: 4px 7px;
+  }
+
+  .authors .author-card .author-img {
+    width: 112px;
+    margin-bottom: 21px;
+  }
+
+  .authors .author-card .author-name {
+    font-size: 26px;
+    line-height: 32px;
+    margin-bottom: 7px;
+  }
+
+  .authors .author-card .author-job {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 14px;
+  }
+
+  .authors .author-card p {
+    font-size: 14px;
+    line-height: 23px;
+    margin-bottom: 21px;
+  }
 }
 
 /* ?=============================================== */
@@ -207,6 +258,16 @@
   .sec-title {
     font-size: 36px;
     line-height: 36px;
+  }
+
+  .sec-desc {
+    font-size: 15px;
+    line-height: 21px;
+
+    &::after {
+      width: 96px;
+      height: 6px;
+    }
   }
 
   .articles .articles-layout .main article,
@@ -290,5 +351,47 @@
     padding: 9px 12px;
     margin-bottom: 9px;
   }
+
+    .authors {
+      padding-block: 60px;
+    }
+
+  .authors .author-card {
+    padding: 24px;
+  }
+
+  .authors .author-card .label {
+    font-size: 9px;
+    line-height: 12px;
+    padding: 3px 6px;
+  }
+
+  .authors .author-card .author-img {
+    width: 96px;
+    margin-bottom: 18px;
+  }
+
+  .authors .author-card .author-name {
+    font-size: 23px;
+    line-height: 27px;
+    margin-bottom: 6px;
+  }
+
+  .authors .author-card .author-job {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 12px;
+  }
+
+  .authors .author-card p {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 18px;
+  }
+
+    .authors .author-card .icon {
+      width: 36px;
+      height: 36px;
+    }
 
 }
