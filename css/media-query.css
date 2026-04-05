@@ -25,6 +25,11 @@
     flex-basis: calc(50% - 32px);
   }
 
+  footer .copyright {
+    flex-direction: column;
+    gap: 12px;
+  }
+
 }
 
 /* ?=============================================== */
@@ -72,6 +77,20 @@
 
   .community .sec-content {
     flex-direction: column;
+  }
+
+  footer .content {
+    flex-wrap: wrap;
+  }
+
+  footer .about {
+    flex-basis: 100%;
+  }
+
+
+
+  footer .newsletter {
+    flex: 1 1 0;
   }
 
 }
@@ -277,6 +296,83 @@
   .community .reviews .review .author-job {
     font-size: 12px;
     line-height: 18px;
+  }
+
+  footer .content {
+    flex-flow: column;
+  }
+
+  footer .about {
+    flex-basis: 100%;
+  }
+
+  footer .newsletter {
+    flex-basis: auto;
+  }
+
+  footer .about .head {
+    margin-bottom: 28px;
+  }
+
+  footer .about .head .icon {
+    width: 56px;
+    height: 56px;
+  }
+
+  footer .about .head h3 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  footer .about p,
+  footer .newsletter p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 21px;
+  }
+
+  footer h4 {
+    font-size: 21px;
+    line-height: 28px;
+    margin-bottom: 28px;
+  }
+
+  footer .categories ul li {
+    margin-bottom: 14px;
+  }
+
+  footer .categories ul li a {
+    color: inherit;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  footer .newsletter form input {
+    padding: 14px;
+    margin-bottom: 14px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  footer .newsletter form button {
+    padding-block: 14px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  footer .copyright {
+    padding-top: 28px;
+  }
+
+  footer .copyright p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  footer .copyright ul {
+    gap: 28px;
+    font-size: 14px;
+    line-height: 21px;
   }
 
 }
@@ -536,13 +632,82 @@
     gap: 12px;
   }
 
-    .community .reviews .review .img-wrapper {
-      width: 36px;
-    }
+  .community .reviews .review .img-wrapper {
+    width: 36px;
+  }
 
-        .community .reviews .review .author-name {
-          font-size: 11px;
-          line-height: 15px;
-        }
+  .community .reviews .review .author-name {
+    font-size: 11px;
+    line-height: 15px;
+  }
+
+  footer {
+    padding-block: 60px;
+  }
+
+  footer .about .head {
+    margin-bottom: 24px;
+  }
+
+  footer .about .head .icon {
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+  }
+
+  footer .about .head h3 {
+    font-size: 23px;
+    line-height: 27px;
+  }
+
+  footer .about p,
+  footer .newsletter p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 18px;
+  }
+
+  footer h4 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 24px;
+  }
+
+  footer .categories ul li {
+    margin-bottom: 12px;
+  }
+
+  footer .categories ul li a {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  footer .newsletter form input {
+    padding: 12px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  footer .newsletter form button {
+    padding-block: 12px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  footer .copyright {
+    padding-top: 24px;
+  }
+
+  footer .copyright p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  footer .copyright ul {
+    gap: 24px;
+    font-size: 12px;
+    line-height: 18px;
+  }
 
 }
