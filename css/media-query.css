@@ -2,7 +2,7 @@
   .hero header {
 
     & nav,
-    & button {
+    & .subscribe {
       display: none;
     }
 
